@@ -1,6 +1,7 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
+    alert(principal)
     if(principal<=0){
         alert("Enter a positive number");
         fname.focus();
